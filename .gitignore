@@ -1,66 +1,28 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environments
+# Virtual environment
+myenv/
 venv/
-.env/
-.venv/
-env/
-ENV/
 
-# Environment variables
-*.env
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Distribution / packaging
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# VSCode / IDE configs
+# IDE / Editor folders
 .vscode/
 .idea/
-*.swp
+*.sublime-project
+*.sublime-workspace
 
-# LangGraph / Huggingface cache
-.cache/
+# Environment variables (keep API keys safe!)
+.env
+
+# Logs and temporary files
+*.log
+tempCodeRunnerFile.py
+*.tmp
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
